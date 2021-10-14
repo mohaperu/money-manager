@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-bar{
+  background-color: rgb(90, 111, 207);
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  height: 40rem;  
+  box-sizing: border-box;
+  
+}
+
+.wrapper{
+  display: flex;
+  
+}
+
+.nav-items{
+  font-size: 1rem;
+  text-decoration-line: unset;
+  color :white;
+  margin: 2px;
+  padding: 15px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.bold{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-decoration-line: none;
+}
+
+.main{
+  background-color:rgba(255, 255, 255, 0.959);
+  width: 100%;
+  text-align: center;
+}
+
+.card{
+  background-color: rgb(231, 228, 228);
+  height: 5rem;
+  width: 15rem;
+  text-align: left;
+  margin: 2rem;
+  border-radius: 12px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.card-holder{
+  margin-left: .6rem;
+  /* margin-top: 2rem; */
+  margin-right: 2.7rem;
+  display: flex;
+  /* padding-top: 2rem; */
+  flex-wrap: wrap;
+  margin-right: 0;
+  justify-content: center;
+
+  
+  
+}
+
+.title{
+  margin-top: 3rem;
+  color: gray;
+  font-weight: bold;
+}
+
+.slider{
+  width: 12rem;
+}
+
+.cardsname{
+  padding: 10px;
+  padding-left: 20px;
+  padding-top: 15px;
+  margin-bottom: -10px;
+  font-weight: 650;
+  font-size: 15px;
+}
+
+.cardmoney{
+  padding-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.adduser{
+  margin-top: 1rem;
+}
+
+.title2{
+  margin-bottom: 7px;
+  text-align: left;
+  padding: 10px;
+  margin-left: 2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cardholder2{
+  margin-top: 2rem;
+  border : 1px solid rgba(0, 0, 0, 0.342);
+  border-radius: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: rgba(60, 60, 82, 0.384);
+}
+
+.viewall{
+  margin-bottom: 1rem;
+}
+
+#categories{
+  margin-right: 1rem;
+}
+
+#gap{
+  margin-right: 5px;
+}
+
+h1{
+  margin-top: 3rem;
+}
+
+h4{
+  margin-top: 3rem;
+  padding: 20px;
+  text-align: center;
+}
